@@ -357,6 +357,69 @@ a {
     font-family: inherit;
 }
 
+/* Support Section */
+.support-section {
+    background: linear-gradient(135deg, #f8f6f0, #fff9e6);
+    text-align: center;
+}
+
+.support-box {
+    max-width: 550px;
+    margin: 0 auto;
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    border-top: 4px solid var(--primary-color);
+}
+
+.support-intro {
+    font-size: 1.1rem;
+    color: var(--text-dark);
+    margin-bottom: 2rem;
+    line-height: 1.7;
+}
+
+.bank-details {
+    background: linear-gradient(135deg, var(--secondary-color), #00152e);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.bank-detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bank-detail-row:last-child {
+    border-bottom: none;
+}
+
+.bank-detail-row .label {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.bank-detail-row .value {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: right;
+}
+
+.support-note {
+    color: #666;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
 /* Footer */
 .footer {
     background-color: #000;
